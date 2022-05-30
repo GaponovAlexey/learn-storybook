@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import { InputIk } from '../components/Input.stories'
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +12,23 @@ const Home: NextPage = () => {
       </Head>
       <div>
         start
+        <InputIk />
+      </div>
+      <div className='data'>
+        <div className='ddd'>
+          <div className='dadad'>
+            <div className='fffa'>
+              <div className='sss'>
+                <div className='dadasd'>
+                  <div className='dasd'>
+                    <div className='dadaw'>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
